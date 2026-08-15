@@ -5,3 +5,6 @@ __pycache__/
 # 本地缓存
 .deno/
 .zcode/
+
+# 本地推送脚本（不纳入版本控制）
+push.ps1

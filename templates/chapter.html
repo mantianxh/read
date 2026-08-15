@@ -1,0 +1,30 @@
+<nav class="breadcrumb">
+  <a href="/index.html">书架</a>
+  <span class="sep">/</span>
+  <a href="{{book_url}}">{{book_title}}</a>
+</nav>
+<h1 class="chapter-title">{{chapter_title}}</h1>
+<article class="prose">
+{{content}}
+</article>
+<nav class="pager">
+{{prev_link}}
+{{next_link}}
+</nav>
+<aside id="toc-side" class="toc-side" data-book-id="{{book_id}}" data-current="{{chapter_file}}" data-book-title="{{book_title}}" aria-label="目录">
+  <div class="toc-side-head">
+    <span class="toc-side-title">目录</span>
+    <div class="toc-side-actions">
+      <button id="bookmark-toggle" class="tool-btn bm-toggle" type="button" aria-label="添加书签" title="添加书签">☆</button>
+      <button id="toc-collapse" class="tool-btn toc-collapse-btn" type="button" aria-label="收起目录" title="收起目录">⟨</button>
+      <button id="toc-close" class="tool-btn toc-close-btn" type="button" aria-label="关闭目录">×</button>
+    </div>
+  </div>
+  <div id="toc-body" class="toc-side-body">
+    <p class="toc-loading">目录加载中…</p>
+  </div>
+  <div id="bookmark-list" class="bm-list-wrap"></div>
+</aside>
+<div id="toc-backdrop" class="toc-backdrop" hidden></div>
+<button id="toc-fab" class="fab fab-toc" type="button" aria-label="打开目录">☰</button>
+<button id="toc-reopen" class="fab fab-reopen" type="button" aria-label="展开目录">☰</button>

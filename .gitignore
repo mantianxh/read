@@ -1,0 +1,10 @@
+# 构建产物（部署目录），由 build.py 生成
+dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# 本地缓存
+.deno/
+.zcode/

@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "id": "xiyouji",
+      "title": "西游记",
+      "author": "吴承恩",
+      "source": "books/西游记.md"
+    },
+    {
+      "id": "liuzhou-diqu-zhi",
+      "title": "柳州地区志",
+      "author": "柳州地区地方志编纂委员会",
+      "source": "books/柳州地区志.md"
+    },
+    {
+      "id": "js",
+      "title": "金史",
+      "author": "金史",
+      "source": "books/金史.md"
+    }
+  ]
+}
